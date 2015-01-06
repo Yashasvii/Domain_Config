@@ -22,7 +22,7 @@ public class Take {
 
         try {
 
-            Object obj = parser.parse(new FileReader("/home/yashasvi/IdeaProjects/domain_relation_greater/test2.json"));
+            Object obj = parser.parse(new FileReader("/home/yashasvi/IdeaProjects/Domain/domain_relation_greater/test2.json"));
 
             JSONObject jsonObject = (JSONObject) obj;
 

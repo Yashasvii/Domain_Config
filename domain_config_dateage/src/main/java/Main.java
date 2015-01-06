@@ -18,7 +18,7 @@ public class Main {
 
         try {
 
-            Object obj = parser.parse(new FileReader("/home/yashasvi/IdeaProjects/domain_config_dateage/test1.json"));
+            Object obj = parser.parse(new FileReader("/home/yashasvi/IdeaProjects/Domain/domain_config_dateage/test1.json"));
 
             JSONObject jsonObject = (JSONObject) obj;
 

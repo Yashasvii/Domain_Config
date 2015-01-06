@@ -1,0 +1,19 @@
+{
+    "column1": {
+        "id": "1",
+        "type": "date",
+        "name": "DOB",
+        "upper_range": "1991-02-08 00:00:00",
+        "lower_range": "2002-02-08 00:58:00",
+        "requiredField": "checked"
+    },
+    "column2": {
+        "id": "2",
+        "type": "integer",
+        "name": "Age",
+        "value": "dob_age_ref(id:1)",
+        "requiredField": "checked"
+    }
+
+
+}

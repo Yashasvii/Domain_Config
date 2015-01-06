@@ -1,0 +1,17 @@
+{
+        "column1": {
+                "id": "1",
+                "type": "integer",
+                "name": "Age1",
+                "upper_range": "50",
+                "lower_range": "20",
+                "requiredField": "checked"
+        },
+        "column2": {
+                "id": "1",
+                "type": "integer",
+                "name": "Age1",
+                "value": "greater_than(id:1)",
+                "requiredField": "checked"
+        }
+}
